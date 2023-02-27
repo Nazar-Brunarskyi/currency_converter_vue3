@@ -1,0 +1,17 @@
+@import 'variables.scss';
+@import 'reset.scss';
+@import './title.scss';
+@import './form.scss';
+@import './table.scss';
+@import './flex-container.scss';
+@import './button.scss';
+@import './blur-block.scss';
+@import './pop-up.scss';
+@import './loader.scss';
+
+body {
+	font-family: 'Segoe UI', sans-serif;
+	background-color: #f1f1f1;
+	color: #333;
+	padding: 0 20px;
+}

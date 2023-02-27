@@ -1,0 +1,26 @@
+.table {
+	width: 100%;
+	border-collapse: collapse;
+	border-radius: 5px;
+	overflow: hidden;
+	
+	&__head,
+	&__colum {
+		padding: 8px;
+		text-align: left;
+		border: 1px solid $colorDdd;
+	}
+
+	&__head {
+		font-weight: bold;
+		background-color: $background-for-table;
+	}
+
+	&__row:nth-child(even) {
+		background-color: $background-for-table;
+	}
+
+	&__row:hover {
+		background-color: #ddd;
+	}
+}

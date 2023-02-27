@@ -1,0 +1,19 @@
+.pop-up {
+	position: fixed;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+
+	&__message {
+		font-size: 18px;
+		line-height: 30px;
+		padding: 10px 20px $basic-margin-m;
+	}
+
+	&__button {
+		display: block;
+		margin-left: auto;
+	}
+}
