@@ -24,4 +24,4 @@ clone it with `git clone https://github.com/Nazar-Brunarskyi/currency_converter_
 
 instal appropriate packages `npm i`
 
-use `npm run dev` to run it
+use `npm run serve` to run it
